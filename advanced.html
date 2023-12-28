@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced Search</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Search</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container mt-3">
+        <form action="https://google.com/search">
+            <div class="form-group">
+                <label for="as_q">All these words:</label>
+                <input type="text" class="form-control" name="as_q">
+            </div>
+            <div class="form-group">
+                <label for="as_epq">Exact word/phrase:</label>
+                <input type="text" class="form-control" name="as_epq">
+            </div>
+            <div class="form-group">
+                <label for="as_oq">Any of these words:</label>
+                <input type="text" class="form-control" name="as_oq">
+            </div>
+            <div class="form-group">
+                <label for="as_eq">None of these words:</label>
+                <input type="text" class="form-control" name="as_eq">
+            </div>
+            <input type="submit" class="btn btn-outline-primary" value="Advanced Search">
+        </form>
+    </div>
+</body>
+</html>
